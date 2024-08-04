@@ -4,7 +4,6 @@ public class FormatadorCepExemplo {
             String cepFormatado = formatarCep("23765064");
         } catch (CepInvalidoException e) {
             throw new RuntimeException(e);
-
         }
     }
 
